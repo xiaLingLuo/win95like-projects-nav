@@ -99,6 +99,20 @@ const PROJECTS = [
         'url'      => 'https://github.com/xiaLingLuo/OpenTLS',
         'tags'     => ['tls', 'ssl'],
     ],
+    [
+        'name'     => 'win95like-projects-nav',
+        'desc'     => 'This Site',
+        'version'  => 'v1.0.0',
+        'status'   => 'stable',
+        'language' => 'PHP',
+        'stars'    => 0,
+        'forks'    => 0,
+        'license'  => 'MIT',
+        'release'  => 'null',
+        'updated'  => '1999-01-01',
+        'url'      => 'https://github.com/xiaLingLuo/win95like-projects-nav',
+        'tags'     => ['php', 'web'],
+    ],
 ];
 
 if (in_array(SITE['timezone'], timezone_identifiers_list(), true)) {
